@@ -8,3 +8,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function jumpTo() {
+  $('html, id').animate({
+      scrollTop: $("id").offset().top
+  }, 2000)
+};
