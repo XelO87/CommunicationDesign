@@ -38,6 +38,34 @@ p{
     padding-bottom: 20vh;
 
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: center;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 #div {
   background: rgba(0, 0, 0, 0.7);
