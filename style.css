@@ -20,6 +20,12 @@ body {
 }
 #article{
   color: white;
+  position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px; color: #fff;
+  text-align-last: center;
 }
 
 h2{
@@ -28,6 +34,7 @@ h2{
 
 h1{
   color:white;
+  text-align-last: center;
 }
 
 p{
@@ -35,6 +42,7 @@ p{
  
     max-width: 60rem;
     color:white;
+    text-align-last: center;
 
 }
 
@@ -42,19 +50,35 @@ p{
  
     width: 100%;
     min-height: 100vh;
-    background-image: url("pictures/ukraina.jpg");
+    background-image: url("pictures/gruppe3.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 50vh;
     padding-bottom: 20vh;
+    text-align-last: center;
 
 }
 /* Container holding the image and the text */
 .container {
   position: relative;
 }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px; color: #fff;
+  text-align-last: center;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+} 
 
 /* Bottom right text */
 .text-block {
@@ -65,11 +89,13 @@ p{
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  text-align-last: center;
 }
 
 .container {
   position: relative;
   font-family: Arial;
+  text-align-last: center;
 }
 
 #div { 
