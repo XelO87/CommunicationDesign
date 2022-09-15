@@ -30,20 +30,39 @@ body {
 
 h2{
   color:white;
+  background-color: #111;
+}
+
+h3{
+  color: #fff;
+  background-color: #111;
 }
 
 h1{
   color:white;
   text-align-last: center;
+  background-color: #111;
 }
 
 p{
-
- 
     max-width: 60rem;
     color:white;
     text-align-last: center;
+    background-color: #111;
+}
 
+p.b {
+  font-style: italic;
+  background-color: #111;
+}
+
+p.c {
+  font-style: oblique;
+  background-color: #111;
+}
+p.thick {
+  font-weight: bold;
+  background-color: #111;
 }
 
 #titleBox {
@@ -65,20 +84,33 @@ p{
   position: relative;
 }
 
-.center {
+.center1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom:1%;
+  transform: translate(-50%, -50%);
+  font-size: 14px; color: #fff;
+  text-align-last: center;
+} 
+
+
+.center2 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px; color: #fff;
+  font-size: 14px; color: #fff;
   text-align-last: center;
-}
+} 
+
+
 
 img { 
   width: 100%;
   height: auto;
-  opacity: 0.3;
 } 
+
 
 /* Bottom right text */
 .text-block {
