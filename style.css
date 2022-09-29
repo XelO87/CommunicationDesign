@@ -30,45 +30,60 @@ body {
 
 h2{
   color:white;
-  background-color: #111;
+  background-color: #000;
+  text-align-last: center;
 }
 
 h3{
   color: #fff;
-  background-color: #111;
+  background-color: #000;
+  text-align-last: center;
 }
 
 h1{
   color:white;
   text-align-last: center;
-  background-color: #111;
+  background-color: #000;
 }
 
 p{
     max-width: 60rem;
     color:white;
     text-align-last: center;
-    background-color: #111;
+    background-color: #000;
 }
 
 p.b {
   font-style: italic;
-  background-color: #111;
+  background-color: #000;
+  text-align-last: center;
 }
 
 p.c {
   font-style: oblique;
-  background-color: #111;
+  background-color: #000;
+  text-align-last: center;
 }
 p.thick {
   font-weight: bold;
+  background-color: #000;
+  text-align-last: center;
+
+}
+
+
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  font-style: italic;
+  color:#fff;
   background-color: #111;
+  font-size: 15px;
 }
 
 #titleBox {
  
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url("pictures/gruppe3.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -88,7 +103,6 @@ p.thick {
   position: absolute;
   top: 50%;
   left: 50%;
-  bottom:1%;
   transform: translate(-50%, -50%);
   font-size: 14px; color: #fff;
   text-align-last: center;
@@ -133,7 +147,8 @@ img {
 #div { 
   background: rgb(0, 0, 0);
   max-width: 100%;
-  padding: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #fff;
   text-align: center;
   margin: 0 auto 20vh auto;
